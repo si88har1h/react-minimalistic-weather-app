@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Minimalistic Weather App using react
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+built this app which shows current temperature , weather status, wind speed, humidity and perceived temperature
+
+
 
 ## Available Scripts
 
