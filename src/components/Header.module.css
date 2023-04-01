@@ -1,0 +1,31 @@
+.header {
+  color: #fff;
+  margin-top: 10rem;
+  animation: boop 300ms ease-in;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.temp {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+.weather {
+  font-size: 2.4rem;
+  font-weight: 500;
+  display: block;
+  transform: rotate(-90deg) translate(20rem, 15rem);
+  text-transform: capitalize;
+}
+
+@keyframes boop {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

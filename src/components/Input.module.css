@@ -1,0 +1,32 @@
+.form {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form input {
+  font-family: "Helvetica";
+  font-size: 1.6rem;
+  padding: 1.4rem;
+  border-radius: 999999px;
+  width: 25rem;
+  outline: none;
+  border: 1px solid #ddd;
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  color: #fff;
+}
+
+.form input::placeholder {
+  color: #fff;
+}
+
+.error {
+  text-align: center;
+  display: block;
+  padding: 1.5rem;
+  color: #fff;
+  border-radius: 10px;
+  background-color: #ffffff35;
+  font-size: 4rem;
+  margin-top: 5rem;
+}
