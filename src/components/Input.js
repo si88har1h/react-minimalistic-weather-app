@@ -24,7 +24,12 @@ const Input = (props) => {
 
   return (
     <form className={styles.form} onSubmit={searchHandler}>
-      <input type="text" placeholder="Enter Location" ref={inputLocation} />
+      <input
+        type="text"
+        placeholder="Enter Location"
+        ref={inputLocation}
+        required
+      />
       {error && <p className={styles.error}>{error}</p>}
     </form>
   );
