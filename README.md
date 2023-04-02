@@ -2,7 +2,7 @@
 
 built this app which shows current temperature , weather status, wind speed, humidity and perceived temperature
 
-
+link to [this project](https://minimalistic-weather-app.netlify.app/)
 
 ## Available Scripts
 
